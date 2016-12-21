@@ -11,3 +11,22 @@ This includes:
 
 * Postgresql 9.6
 * Rails 5
+
+
+## Development
+
+After cloning repository:
+
+```bash
+# 1. build
+docker-compose build .
+
+# 2. start
+docker-compose up
+
+# 3. setup
+docker-compose run app rake db:setup
+
+# 4. test
+docker-compose run app rake test
+```
