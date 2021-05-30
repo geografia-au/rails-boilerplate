@@ -1,4 +1,4 @@
-from ruby:2.3-slim
+from ruby:2.5-slim
 
 # install packages
 
